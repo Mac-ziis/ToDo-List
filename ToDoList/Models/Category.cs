@@ -31,5 +31,11 @@ namespace ToDoList.Models
     {
       return _instances[searchId-1];
     }
+
+    public void AddItem(Item item)
+    {
+      Items.Add(item);
+    }
+
   }
 }
